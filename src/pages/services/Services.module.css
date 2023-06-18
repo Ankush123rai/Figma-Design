@@ -1,0 +1,139 @@
+.service1 {
+    padding: 3.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .service1_card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    width: 80%;
+    margin-top: 8rem;
+  }
+  
+  .service2 {
+    padding: 3.3rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .service2_top {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .service2_top h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 1rem;
+  }
+  
+  .service2_top p {
+    color: gray;
+  }
+  
+  .service2_top p1 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: gray;
+    margin-bottom: 1rem;
+  }
+  
+  .service2_bottom {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction:row;
+    gap: 2rem;
+  }
+  
+  .service2_bottom_right img {
+    width: 480px;
+    height:500px;
+    margin-left: 5rem;
+  }
+  
+  .service2_bottom_left_list {
+    margin-top: 2rem;
+  }
+  
+  .service2_bottom_left_list_item {
+    display: flex;
+    gap: 1rem;
+    margin: 2rem 0;
+    width: 80%;
+  }
+  
+  .service2_bottom_left_list_item_icon {
+    width: 40px;
+    height: 40px;
+    background-color: #faecde;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+  }
+ .service2_bottom_left_list_item_icon span{
+    font-size: 1rem;
+    color: #000;
+  }
+  
+  .service2_bottom_left_list_item_text p {
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: gray;
+    margin-top: 0.6rem;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .service1_card {
+      margin-top: 4rem;
+    }
+  
+    .service2_top h2 {
+      font-size: 2rem;
+    }
+  
+    .service2_top p1 {
+      font-size: 1rem;
+    }
+  
+    .service2_bottom {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+    }
+  
+    .service2_bottom_right img {
+      width: 100%;
+      height: auto;
+      margin-left: 0;
+    }
+  
+    .service2_bottom_left_list {
+      margin-top: 2rem;
+    }
+  
+    .service2_bottom_left_list_item {
+      display: flex;
+      gap: 1rem;
+      margin: 1rem 0;
+    }
+  
+    .service2_bottom_left_list_item_icon {
+      width: 30px;
+      height: 30px;
+    }
+  
+    .service2_bottom_left_list_item_text p {
+      font-size: 0.8rem;
+    }
+  }
+  

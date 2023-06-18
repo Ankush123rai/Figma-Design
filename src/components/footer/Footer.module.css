@@ -1,0 +1,141 @@
+.footer_top{
+    background: #faecde;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 3.3rem;
+  margin: 1rem 0;
+
+}
+.navbar_logo {
+    color: #000;
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+  }
+ .footer_top_left h2{
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 1.5rem;
+}
+.footer_top_right{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 50%;
+    height: 6vh;
+    gap:1rem;
+}
+.footer_top_right input{
+    border: 1px solid #7c7979;
+    border-radius: 4px;
+    padding: 0.5rem 1.4rem;
+    outline: none;
+}
+
+.footer_bottom{
+    background: #fff;
+    padding: 3rem 3.3rem;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray
+}
+.bottom_first{
+    width: 30%;
+}
+.bottom_first p{
+    color: gray;
+    font-size: 1.2rem;
+    margin-top: 1.5rem;
+}
+.footer_bottom .bottom_second{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+.bottom_second p{
+    color: gray;
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 3.3rem;
+}
+.title span{
+    color: #000;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.socail_icons{
+    display: flex;
+    gap: 1.2rem;
+    font-size: 2rem;
+    color:gray;
+}
+/* Media Query for Mobile View */
+
+@media screen and (max-width: 768px) {
+    .footer_top {
+        flex-direction: column;
+        padding: 2rem 1rem;
+    }
+  
+    .navbar_logo {
+      justify-content: center;
+      gap: 0.5rem;
+    }
+  
+    .footer_top .footer_top_left h2 {
+      font-size: 1.4rem;
+      margin-bottom: 1rem;
+    }
+  
+    .footer_top_right {
+      flex-direction: column;
+      width: 100%;
+      height: 100%;
+      margin-top: 1rem;
+      gap: 0.8rem;
+    }
+  
+    .footer_top_right input {
+      width: 100%;
+    }
+  
+    .footer_bottom {
+      flex-direction: column;
+      padding: 2rem 1rem;
+    }
+  
+    .bottom_first,
+    .bottom_second {
+      width: 100%;
+    }
+  
+    .bottom_first p {
+      font-size: 1rem;
+      margin-top: 1rem;
+    }
+  
+    .footer_bottom .bottom_second {
+      gap: 1rem;
+      margin-top: .7rem;
+    }
+  
+    .title {
+      flex-direction: column;
+      padding: 1rem;
+      text-align: center;
+    }
+  
+    .title span {
+      font-size: 1.2rem; 
+    }
+  
+    .socail_icons {
+      justify-content: center;
+    }
+  }
+  

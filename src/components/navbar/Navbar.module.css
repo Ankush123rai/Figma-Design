@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Kumbh Sans' , sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  color: #fff;
+  padding: 1rem 3.3rem;
+  position: sticky;
+  z-index: 999;
+  top: 0;
+}
+
+.navbar_logo {
+  color: #000;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.navbar_logo h2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.navbar_links {
+  display: flex;
+  align-items: center;
+  gap: 1.8rem;
+  font-size: 1.1rem;
+}
+
+.navbar_links a {
+  color: #000;
+  text-decoration: none;
+  font-weight: 500;
+}
+.navbar_button {
+  display: none;
+}
+
+#freeguide {
+  background: #20ad96;
+  color: #fff;
+  padding: 0.8rem 1.5rem;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.navbar_responsive {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar_links {
+    display: none;
+  }
+
+  .navbar_button {
+    display: block;
+  }
+
+  .navbar_responsive {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.8rem;
+    background: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding: 1.5rem 0;
+    transition: all 1s ease-in-out
+  }
+
+  .navbar_responsive a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+  }
+}
