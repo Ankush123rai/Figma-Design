@@ -1,8 +1,8 @@
 import React from "react";
 import style from "./HeroSection2.module.css";
 import CustomButton from "../../customButton/CustomButton";
-import roundImage from "../../Images/roundImage.png";
-import message from "../../Images/message.png";
+import roundImage from "../../../src/Images/roundImage.png";
+import message from "../../../src/Images/message.png";
 
 const HeroSection2 = ({heading,children}) => {
   return (

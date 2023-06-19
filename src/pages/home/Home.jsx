@@ -9,8 +9,8 @@ import message from "../../../src/Images/message.png";
 import CommonData from "../../components/CommonData";
 import CustomButton from "../../customButton/CustomButton";
 import HeroSection2 from "../../components/heroSection2/HeroSection2";
-import readingBook from "../../Images/readingBook.png";
-import smile from "../../Images/smile.png";
+import readingBook from "../../../src/Images/readingBook.png";
+import smile from "../../../src/Images/smile.png";
 
 const Home = () => {
 

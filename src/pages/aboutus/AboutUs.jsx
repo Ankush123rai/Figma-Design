@@ -4,7 +4,7 @@ import HeroSesction2 from '../../components/heroSection2/HeroSection2'
 import CustomButton from '../../customButton/CustomButton'
 import Testimonials from '../../components/testimonials/Testimonials'
 import ReadingBook from '../../components/readingBook/ReadingBook'
-import smile from "../../Images/smile.png"
+import smile from "../../../src/Images/smile.png"
 
 const AboutUs = () => {
   return (
