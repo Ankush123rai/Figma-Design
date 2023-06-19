@@ -1,7 +1,7 @@
 import React from 'react'
 import style from './FreeGuide.module.css'
 import HeroSection from '../../components/heroSection/HeroSection'
-import meeting from '../../images/meeting.png'
+import meeting from '../../../src/Images/meeting.png'
 import WorkFeatures from '../../components/workFeatures/WorkFeatures'
 import ReadingBook from '../../components/readingBook/ReadingBook'
 import Testimonials from '../../components/testimonials/Testimonials'
@@ -9,7 +9,7 @@ import readingBook from '../../images/readingBook.png'
 import QuerySection from '../../components/querySection/QuerySection'
 import {ImCross} from 'react-icons/im'
 import {FaCheck} from 'react-icons/fa'
-import leave from '../../images/leave.png'
+import leave from '../../../src/Images/leave.png'
 const FreeGuide = () => {
 
   const arr=[
