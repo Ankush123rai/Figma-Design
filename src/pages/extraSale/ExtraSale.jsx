@@ -1,7 +1,7 @@
 import React from "react";
 import style from "./ExtraSale.module.css";
 import HeroSection from "../../components/heroSection/HeroSection";
-import chasmawali from "../../images/chasmawali.png";
+import goggleGirl from "../../../src/Images/goggleGirl.png";
 import { MdLayers } from "react-icons/md";
 import { AiTwotoneThunderbolt } from "react-icons/ai";
 import { BsCircleSquare } from "react-icons/bs";
@@ -43,7 +43,7 @@ const ExtraSale = () => {
         heading="About me"
         paragraph="I help people to discover their true potential and live a fulfilling life...
         Discover the simple 3 steps that I discovered to hack productivity. It just works and it is begin using backed by science. Wanna transform your life?"
-        image={chasmawali}
+        image={goggleGirl}
       />
       <div className={style.features}>
         <p>From startups to the world’s largest companies</p>

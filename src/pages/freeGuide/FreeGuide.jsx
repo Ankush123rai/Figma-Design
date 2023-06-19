@@ -51,8 +51,8 @@ const FreeGuide = () => {
       <div className={style.freeGuideContent}>
         <div className={style.freeGuideContentLeft}>
         <h4>This is NOT for you if...</h4>
-          {arr.map((item)=>(
-            <div className={style.wrong}>
+          {arr.map((item,ind)=>(
+            <div className={style.wrong} key={ind}>
               <span><ImCross/></span>
               <p>{item.title}</p>
             </div>
@@ -60,8 +60,8 @@ const FreeGuide = () => {
         </div>
         <div className={style.freeGuideContentRight}>
         <h4>This is for you if...</h4>
-        {arr.map((item)=>(
-            <div className={style.right}>
+        {arr.map((item,ind)=>(
+            <div className={style.right} key={ind}>
               <span><FaCheck/></span>
               <p>{item.title}</p>
             </div>
