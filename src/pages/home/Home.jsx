@@ -111,7 +111,13 @@ const constainer3 = [
         <CustomButton text="Read More Blogs" />
         </div>
 {/* ****************************container 4************************* */}
-      <HeroSection2/>
+      <HeroSection2
+        heading='Don’t miss out on my ‘Live life at the full potential’ free guide'
+      >
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua minim
+          veniam</p>
+      </HeroSection2>
 
 {/* ****************************container 4************************* */}
       <div className={style.container4}>

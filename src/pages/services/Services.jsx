@@ -11,6 +11,8 @@ import {HiOutlineChatAlt2} from "react-icons/hi";
 import {AiOutlineCalendar} from "react-icons/ai";
 import {RiFunctionLine} from "react-icons/ri";
 import {IoChatbubbleOutline} from "react-icons/io5";
+import QuerySection from "../../components/querySection/QuerySection";
+import Testimonials from "../../components/testimonials/Testimonials";
 
 const Services = () => {
 
@@ -68,7 +70,7 @@ const Services = () => {
       <div className={style.service2_top}>
         <p>How does it work?</p>
         <h2>Are you ready to transform your life?</h2>
-        <p1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua minim veniam.</p1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua minim veniam.</p>
       </div>
       <div className={style.service2_bottom}>
         <div className={style.service2_bottom_left}>
@@ -92,6 +94,8 @@ const Services = () => {
       </div>
     </div>
 
+
+    <QuerySection />
     </>
   );
 };

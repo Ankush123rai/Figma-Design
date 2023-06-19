@@ -1,0 +1,121 @@
+.reading_book {
+    margin: 2rem 0;
+  }
+  
+  .reading_book_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #faecde;
+    padding:4rem 3.3rem;
+  }
+  
+  .reading_book_left_side {
+    width: 100%;
+    padding: 1rem 0;
+  }
+  
+  .reading_book_left_side p {
+    color: gray;
+    font-size: 1rem;
+  }
+  
+  .reading_book_left_side h2 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin: 1rem 0;
+  }
+  
+  .reading_book_right_side {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .content {
+    display: flex;
+    margin: 1rem 0;
+  }
+  
+  .content_icon {
+    width: 40px;
+    height: 40px;
+    background: #f5f5f5;
+    border-radius: 50%;
+    padding: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1rem;
+  }
+  
+  .content_inside {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .content_inside p {
+    color: gray;
+    font-size: 0.8rem;
+  }
+  
+  .reading_book_img {
+    display: flex;
+    justify-content: center;
+    margin-top: -4rem;
+  }
+  
+  .reading_book_img img {
+    width: 100%;
+    max-width: 550px;
+    border-radius: 0.3rem;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .reading_book_container {
+      padding: 2rem;
+    }
+  
+    .reading_book_left_side h2 {
+      font-size: 2rem;
+    }
+  
+    .reading_book_left_side p,
+    .content_inside p {
+      font-size: 0.9rem;
+    }
+  
+    .reading_book_right_side {
+      align-items: flex-start;
+      margin-top: 2rem;
+    }
+  
+    .reading_book_img {
+      margin-top: 2rem;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .reading_book_left_side h2 {
+      font-size: 1.8rem;
+    }
+  
+    .reading_book_left_side p,
+    .content_inside p {
+      font-size: 0.8rem;
+    }
+  
+    .reading_book_right_side {
+      align-items: center;
+      margin-top: 1rem;
+    }
+  
+    .reading_book_img {
+      margin-top: 1.5rem;
+    }
+  }
+  

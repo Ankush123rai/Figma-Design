@@ -73,6 +73,7 @@
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     transition: all 0.3s ease-in-out;
 }
+
 .card1 img{
     width: 50px;
     height: 50px;
@@ -143,7 +144,8 @@
   
     .container1 img,
     .card1 img {
-      width: 80px;
+      width: 50px;
+      height: 50px;
     }
   
     .left_side,

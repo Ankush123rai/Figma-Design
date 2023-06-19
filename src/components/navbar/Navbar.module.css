@@ -41,7 +41,7 @@
   text-decoration: none;
   font-weight: 500;
 }
-.navbar_button {
+.navbar_hamburger {
   display: none;
 }
 
@@ -60,12 +60,20 @@
 }
 
 @media screen and (max-width: 768px) {
+  .navbar {
+    position:sticky;
+    width: 100%;
+    top: 0;
+  }
+
   .navbar_links {
     display: none;
   }
 
-  .navbar_button {
+  .navbar_hamburger {
     display: block;
+    color: rgb(32, 183, 32);
+    font-size: 1.7rem;
   }
 
   .navbar_responsive {

@@ -4,24 +4,23 @@ import CustomButton from "../../customButton/CustomButton";
 import roundImage from "../../Images/roundImage.png";
 import message from "../../Images/message.png";
 
-const HeroSection2 = () => {
+const HeroSection2 = ({heading,children}) => {
   return (
     <div className={style.heroSection2}>
       <div className={style.heroSection2_content}>
         <h2>
-          Don’t miss out on my ‘Live life at the full potential’ free guide
+          {heading}
         </h2>
-        <p className={style.para}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua minim
-          veniam
-        </p>
+        <div className={style.para}>
+          {children}
+        </div>
         <p>
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
           accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
           ab illo inventore veritatis et quasi architecto beatae vitae dicta
           sunt explicabo.
         </p>
+
         <CustomButton text="Get your free guide now" link="/freeguide" />
       </div>
 
