@@ -2,7 +2,7 @@ import React from "react";
 import style from "./ReadingBook.module.css";
 import { RiFunctionLine } from "react-icons/ri";
 import { IoChatbubbleOutline } from "react-icons/io5";
-import overlay from "../../../src/Images/overlay.png";
+import Overlay from "../../../src/Images/Overlay.png";
 
 const ReadingBook = () => {
   return (
@@ -47,7 +47,7 @@ const ReadingBook = () => {
         </div>
       </div>
       <div className={style.reading_book_img}>
-        <img src={overlay} alt="image" />
+        <img src={Overlay} alt="image" />
       </div>
     </div>
   );
