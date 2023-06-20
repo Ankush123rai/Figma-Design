@@ -2,7 +2,7 @@ import React from "react";
 import style from "./ReadingBook.module.css";
 import { RiFunctionLine } from "react-icons/ri";
 import { IoChatbubbleOutline } from "react-icons/io5";
-import overlay from "../../../src/Images/overlay.png";
+import overlay from "../../Images/overlay.png";
 
 const ReadingBook = () => {
   return (
